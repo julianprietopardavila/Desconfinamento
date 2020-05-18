@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provincias_galicia">
+        <item>A Coruña</item>
+        <item>Lugo</item>
+        <item>Ourense</item>
+        <item>Pontevedra</item>
+    </string-array>
+    <string-array name="fases">
+        <item>Fase 0</item>
+        <item>Fase 1</item>
+        <item>Fase 2</item>
+        <item>Fase 3</item>
+    </string-array>
+</resources>

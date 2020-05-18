@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNovaFase">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNovaFase">
+
+    <TextView
+        android:id="@+id/txtNomeFaseNova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novaFse_txtNomeFase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNomeFaseNova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeFaseNova" />
+
+    <TextView
+        android:id="@+id/txtDescripcionFaseNova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novaFase_txtDescripcionFase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeFaseNova" />
+
+    <EditText
+        android:id="@+id/edtFaseCaracteristicasNovas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionFaseNova" />
+
+    <Button
+        android:id="@+id/btGardarNovaFase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/novaFase_btGardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtFaseCaracteristicasNovas" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

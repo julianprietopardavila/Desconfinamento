@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Desconfinamento</string>
+    <!-- PANTALLA LOGIN -->
+    <string name="pantalla_login">Pantalla de Aceso</string>
+    <string name="txtNomeUsuario_Login">Nome de Usuario</string>
+    <string name="txtContrasinal_Login">Contrasinal</string>
+    <string name="btnAdmin_Login">Aceso Administrador</string>
+    <string name="btnUsuario_Login">Aceso Usuario</string>
+
+    <!-- Pantalla Usuario -->
+    <string name="usuario_txtProvincias">Provincia</string>
+    <string name="usuario_btVerFase">Ver Fase Desconfinamiento</string>
+    <string name="usuario_btSair">Sair</string>
+
+    <!-- Pantalla Usuario -->
+    <string name="admin_btEngadirFase">Engadir Fase</string>
+    <string name="admin_btnSeleccionFase">Seleccionar fase para unha provincia</string>
+
+    <!-- Pantalla Nova Fase -->
+    <string name="novaFse_txtNomeFase">Nome da Fase</string>
+    <string name="novaFase_txtDescripcionFase">Descripcion da Nova Fase</string>
+    <string name="novaFase_btGardar">Gardar</string>
+
+    <!--Pantalla Asociar Fase e Provincia -->
+    <string name="fasProv_btGardar">Gardar</string>
+    <string name="fasProv_txtFas">Fase</string>
+    <string name="fasProv_txtProv">Provincia</string>
+</resources>
